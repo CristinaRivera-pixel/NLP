@@ -1,5 +1,0 @@
-Username:Anon
-likes:I like eggs
-i like sandwiches
-dislikes:I don't like cats
-I don't like puppies
