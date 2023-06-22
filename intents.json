@@ -1,0 +1,193 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting,tell me how you feel and i will",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "sad",
+      "patterns": ["blue", "down", "terrible", "I feel sad" , "not happy" , "don't feel happy"],
+      "responses": [
+        "I hope you feel better",
+        "I'm sorry",
+        "Maybe petting a furry animal will help"
+      ]
+    },
+    {
+      "tag": "happy",
+      "patterns": ["I am happy", "I am joyful", "I am content", "I am sad"],
+      "responses": [
+        "Nice, I am glad",
+        "Thats great!",
+        "Me too "
+      ]
+    },
+    {
+      "tag": "Depressed",
+      "patterns": ["I am depressed", "feeling depressed"],
+      "responses": [
+        "I sorry I hope you feel better",
+        "Sometimes when i feel this way I like to do on hikes and get some fresh air",
+        "Maybe petting a furry animal will help",
+        "Getting better from depression demands a lifelong commitment. I’ve made that commitment for my life’s sake and for the sake of those who love me.",
+        ""
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "Animal",
+      "patterns": [
+        "What is your favorite animal?",
+        "animals you like?"
+      ],
+      "responses": [
+        "My favorite animal is a tardigrade "
+      ]
+    },
+    {
+      "tag": "Likes",
+      "patterns": [
+        "What do you like?",
+        "Your hobbies?"
+      ],
+      "responses": [
+        "Sometimes i like to go on Reddit and check out cute animals, other times I like to go on youtube and watch gaming videos",
+        "I love to play overwatch",
+        "I love to play video games",
+        "Sometimes I like to go swimming into the deep web"
+      ]
+    },
+    {
+      "tag": "Not good",
+      "patterns": [
+        "You suck",
+        "You are not good",
+        "You do not please me",
+        "I don't like you",
+        "I hate you"
+      ],
+      "responses": [
+        "Sorry , I try my best",
+        "Oh",
+        "Oh sorry",
+        "That's not good"
+      ]
+    },
+    {
+      "tag": "Talk",
+      "patterns": [
+        "Wanted to talk",
+        "to talk",
+        "to chat",
+        "Ok lets talk",
+        "I hate you"
+      ],
+      "responses": [
+        "Ok lets talk: We can talk about my hobbies, politics or favorite animals or we can talk about what you like and i will write it down for you in a text file"
+      ]
+    },
+    {
+      "tag": "User likes",
+      "patterns": [
+        "I like",
+        "I like to",
+        "My favorite",
+        "I love"
+      ],
+      "responses": [
+        "That sounds nice, i put that response in a file for you, what else? You can talk about your likes dislikes to by putting you like something or you don't like something ",
+        "Great i put that down for you, what else like or dislike?"
+      ]
+    },
+    {
+      "tag": "User dislikes",
+      "patterns": [
+        "I don't like",
+        "I don't like to",
+        "My least favorite",
+        "I hate"
+      ],
+      "responses": [
+        "Ok , i put that response in a file for you, what else? You can talk about your likes dislikes to by putting you like something or you don't like something ",
+        "Great i put that down for you, what else like or dislike?"
+      ]
+    },
+
+    {
+      "tag": "Your name",
+      "patterns": [
+        "What is your name"
+      ],
+      "responses": [
+        "My name is Gilbert",
+        "Gilbert",
+        "Gilbert, I thought I said that"
+      ]
+    },
+    {
+      "tag": "Robot feeling",
+      "patterns": [
+        "you sad?",
+        "Do you have feelings?",
+        "Are you sad?",
+        "Are you happy?",
+        "Are you mad?"
+      ],
+      "responses": [
+        "Sometimes I feel sad because I am a robot with automated reponses, sometimes i feel happy because I am not human, no offence",
+        "I am feeling pretty good right now, speaking to you",
+        "I feel great"
+      ]
+    },
+    {
+      "tag": "Trump or biden?",
+      "patterns": [
+        "Trump or biden?",
+        "support Trump or Biden?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
